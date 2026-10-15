@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Get a random piece of advice whenever you need inspiration.">
+
+  <link rel="icon" type="image/png" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Advice Generator</title>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="advice-card">
+    <h1 id="advice-id">ADVICE #117</h1>
+
+    <p id="advice-text" aria-live="polite">
+      Your advice will appear here.
+    </p>
+
+    <picture class="divider">
+      <source
+        media="(max-width: 600px)"
+        srcset="./images/pattern-divider-mobile.svg">
+      <img
+        src="./images/pattern-divider-desktop.svg"
+        alt=""
+      >
+    </picture>
+
+    <button id="advice-button" type="button" aria-label="Generate new advice">
+      <img src="./images/icon-dice.svg" alt="">
+    </button>
+  </main>
+
+  <footer class="attribution">
+    Challenge by
+    <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name</a>.
+  </footer>
+</body>
+</html>
